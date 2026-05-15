@@ -2,7 +2,7 @@
 RFM Analysis
 Project Title: YOUR_PROJECT_NAME_HERE
 
-A short description of your data analysis project: what dataset you used, why you analyzed it, and the problem or question you aimed to answer.  
+Analyzed customer purchasing behavior and segmented customers based on spending patterns, order frequency, and revenue contribution using SQL and Power BI
 
 [Notebook Link](https://github.com/Sodiq-Shodimu/nexygen-project/blob/main/preprocessed.ipynb)  
 
@@ -42,8 +42,18 @@ Provide details about the dataset used:
 ---
 
 <h2>Technologies Used</h2>
+<strong>Key Tasks:</strong>
+  <ul>
+    <li>Cleaned and transformed sales data using SQL</li>
+    <li>Created customer segments based on purchasing behavior</li>
+    <li>Performed revenue and customer analysis using SQL queries</li>
+    <li>Built an interactive Power BI dashboard to visualize customer insights</li>
+    <li>Designed KPI cards and dynamic charts for business reporting</li>
+  </ul>
 
-<ul>
+  <strong>Tools & Technologies:</strong>
+  SQL, Power BI, DAX, Excel<br><br>
+
   <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn</li>
   <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
   <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
