@@ -24,15 +24,40 @@ Analyzed customer purchasing behavior and segmented customers based on spending 
 
 ## Overview
 
-- **Motivation:** Why did you choose this dataset or problem?  
-- **Objective:** What question(s) are you trying to answer through this analysis?  
-- **Learning Outcomes:** What did you learn while working on this project?  
+This project focuses on customer segmentation analysis using SQL and Power BI to identify different customer groups based on purchasing behavior, spending patterns, and order frequency. The goal of this analysis is to help businesses better understand their customers and support data-driven decision-making.
+By analyzing customer transaction data, the project uncovers valuable insights into customer behavior, high-value customers, and revenue contribution across segments.
 
----
+## Objective
+
+Analyze customer purchasing behavior
+
+Identify high-value and low-value customer groups
+
+Measure customer spending patterns and order frequency
+
+Build interactive dashboards for business insights
+
+Support marketing and customer retention strategies
+
 
 ## Dataset
 
-Provide details about the dataset used:
+The dataset contains customer transaction information including:
+
+Customer ID
+
+Order ID
+
+Product Information
+
+Sales Amount
+
+Purchase Date
+
+Quantity Purchased
+
+Customer Location
+
 
 - Source of the dataset (link if available)  
 - Size of the dataset (# of rows and columns)  
@@ -54,11 +79,7 @@ Provide details about the dataset used:
   <strong>Tools & Technologies:</strong>
   SQL, Power BI, DAX, Excel<br><br>
 
-  <li><strong>Languages & Libraries:</strong> Python, Pandas, NumPy, SQL, Matplotlib, Seaborn</li>
-  <li><strong>Tools:</strong> Jupyter Notebook, VS Code, Git, GitHub</li>
-  <li><strong>Data Visualization:</strong> Power BI / Tableau (if applicable)</li>
-</ul>
-
+ 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
