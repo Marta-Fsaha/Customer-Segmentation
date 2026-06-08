@@ -1,10 +1,9 @@
 # Customer-Segmentation
 RFM Analysis
-Project Title: YOUR_PROJECT_NAME_HERE
+Project Title: RFM Analysis
 
 Analyzed customer purchasing behavior and segmented customers based on spending patterns, order frequency, and revenue contribution using SQL and Power BI
 
-[Notebook Link](https://github.com/Sodiq-Shodimu/nexygen-project/blob/main/preprocessed.ipynb)  
 
 ---
 
@@ -43,27 +42,22 @@ Support marketing and customer retention strategies
 ## Dataset
 
 The dataset contains customer transaction information including:
+InvoiceNo
+StockCode
+Description
+Quantity
+Invocedate
+Unitprice
+CustomerID
+Country
 
-Customer ID
-
-Order ID
-
-Product Information
-
-Sales Amount
-
-Purchase Date
-
-Quantity Purchased
-
-Customer Location
-
-
-- Source of the dataset (link if available)  
-- Size of the dataset (# of rows and columns)  
-- Key features/columns used  
+- Source of the dataset (https://www.kaggle.com/datasets/siddharththakkar26/online-retail-dataset)
+- Size of the dataset (numbersof row is about 541,909 and 8 colums)  
+- Key features/columns used
 - Any preprocessing or cleaning steps  
-
+Removed duplicate records
+Corrected inconsistent formatting (dates, text, categories)
+Converted data types (e.g., string to datetime)
 ---
 
 <h2>Technologies Used</h2>
@@ -77,8 +71,7 @@ Customer Location
   </ul>
 
   <strong>Tools & Technologies:</strong>
-  SQL, Power BI, DAX, Excel<br><br>
-
+  SQL, Power BI, Excel<br><br>
 
 ---
 
