@@ -25,3 +25,55 @@ SELECT
   ROW_NUMBER() OVER (ORDER BY frequency DESC) AS f_rank,
   ROW_NUMBER() OVER (ORDER BY monetary DESC) AS m_rank
 FROM rfm;
+
+-----
+CREATE OR REPLACE VIEW `rfm032026.sales..rfm_scores` 
+AS
+SELECT *, 
+NTILE(10) OVER(order by r_rank DESC) AS r_score,
+NTILE(10) OVER(order by f_rank DESC) AS f_score,
+NTILE(10) OVER(order by m_rank DESC) AS m_score,
+FROM `rfm032026.sales..rfm_metrics`; 
+
+------
+
+CREATE OR REPLACE VIEW `rfm032026.sales.rfm_total_scores` 
+AS
+SELECT 
+customerId,
+recency,
+frequency,
+monetary,
+r_score,
+f_score,
+m_score,
+(r_score+f_score+m_score) as rfm_total_score
+FROM `rfm032026.sales..rfm_scores`
+ORDER BY rfm_total_score DESC;
+
+----BI ready rfm segments table
+ CREATE OR REPLACE VIEW `rfm032026.sales.rfm_segments_final`
+ AS
+ SELECT 
+ customerId,
+ recency,
+ frequency,
+ monetary,
+ r_score,
+ f_score,
+ m_score,
+ rfm_total_score,
+ CASE
+ WHEN rfm_total_score>=28 THEN 'Champians'
+ WHEN rfm_total_score>=24 THEN 'Loyal VIPs'
+ WHEN rfm_total_score>=20 THEN 'Potential Loyalists'
+ WHEN rfm_total_score>=16 THEN'Promising'
+ WHEN rfm_total_score>=12 THEN'Engaged'
+ WHEN rfm_total_score>=8 THEN'Requires Attenation'
+ WHEN rfm_total_score>=4 THEN'At risk'
+ELSE 'Inactive'
+END AS rfm_segment
+FROM `rfm032026.sales.rfm_total_scores`
+Order By rfm_total_score DESC;
+
+
