@@ -106,7 +106,7 @@ Instructions for using the project:
 
 Include screenshots of your visualizations if available:  
 
-<a href="https://github.com/Marta-Fsaha/Excel-Project/blob/main/coffeeOrdersanalysizeddataforgithub.xlsx"> View Project <a/>
+<a href="customer segment visual.png"> View Project <a/>
 
 ---
 
