@@ -106,7 +106,7 @@ Instructions for using the project:
 
 Include screenshots of your visualizations if available:  
 
-!Customer segment visual1.pbix
+<a href="https://github.com/Marta-Fsaha/Excel-Project/blob/main/coffeeOrdersanalysizeddataforgithub.xlsx"> View Project <a/>
 
 ---
 
@@ -137,9 +137,6 @@ Summarize your findings, insights, and visualizations:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) – feel free to use and modify it.  
 
 ---
 
