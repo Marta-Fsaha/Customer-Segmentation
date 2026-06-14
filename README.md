@@ -106,7 +106,7 @@ Instructions for using the project:
 
 Include screenshots of your visualizations if available:  
 
-![Visualization Example](assets/images/screenshot.png)  
+!Customer segment visual1.pbix
 
 ---
 
