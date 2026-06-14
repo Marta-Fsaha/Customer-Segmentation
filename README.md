@@ -100,13 +100,13 @@ jupyter notebook
 
 Instructions for using the project:
 
-1. Open the main notebook (`analysis.ipynb`)  
-2. Run each cell sequentially to reproduce the analysis  
+1. Open the main quieries <a href="Customer segmentation 2026-05-07 13_36_26.sql"> <a/>
+2. Run each cell sequentially to reproduce the analysis
 3. Visualizations and results will be generated automatically  
 
 Include screenshots of your visualizations if available:  
 
-<a href="customer segment visual.png"> View Project <a/>
+<a href="customer segment visual.png"> Visualization <a/>
 
 ---
 
